@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 1em;
+      max-width: 600px;
+      margin: auto;
+    }
+    .info-table {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      row-gap: 0.5em;
+      column-gap: 1em;
+    }
+    .label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="info-table">
+    <div class="label">Vrucht:</div><div>Klein tot matig groot, rond, gelijkmatig van vorm</div>
+    <div class="label">Kleur:</div><div>Hardgroen met veel roest, bij rijpheid geelgroen</div>
+    <div class="label">Kelk:</div><div>Groot, open in vlakke kelkholte, kelkblaadjes vlezig</div>
+    <div class="label">Steel:</div><div>Kort en dik</div>
+    <div class="label">Vruchtvlees:</div><div>Hard, korrelig, wit</div>
+    <div class="label">Gebruikstijd:</div><div>December - februari</div>
+  </div>
+</body>
+</html>
